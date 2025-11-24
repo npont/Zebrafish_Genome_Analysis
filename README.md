@@ -15,18 +15,15 @@ It uses fastaRegexFinder to find the motifs in the genome, developped by https:/
 ├── DCM_motifs_in_Genome
 │   ├── Danio_rerio
 │   │   ├── Ensembl
-│   │   │   ├── dcm_motifs_1_based.bed
-│   │   │   ├── dcm_motifs_zero_based.bed
+│   │   │   ├── dcm_motifs_zero_based.bed #Generated after running job.sh
 │   │   │   └── job.sh
 │   │   └── Lawson
-│   │       ├── dcm_motifs_one_based.bed
-│   │       ├── dcm_motifs_zero_based.bed
+│   │       ├── dcm_motifs_zero_based.bed #Generated after running job.sh
 │   │       └── job.sh
 │   ├── fastaRegexFinder.py
 │   └── Mus_Musculus
 │       └── Ensembl
-│           ├── dcm_motifs_one_based.bed
-│           ├── dcm_motifs_zero_based.bed
+│           ├── dcm_motifs_zero_based.bed #Generated after running job.sh
 │           └── job.sh
 ```
 Each subdirectory named by the specie contains two bed files containing the positions of DCM binding motifs in the corresponding specie using the corresponding genome assembly. Those were generated with job.sh and are based on fastaRegexFinder.py (https://github.com/dariober/bioinformatics-cafe).
