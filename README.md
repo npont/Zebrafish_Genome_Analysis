@@ -5,3 +5,4 @@ This repository contains the extensive analysis of DCM binding sites in ZF genom
 - when coupled to the polymerase, the DCM is able to methylate both strands during transcription
 - the DCM is only able to methylate the strand on which the polymerase is elongating
 
+It also include an analysis of DCM motifs in Mus Musculus genome.
