@@ -6,3 +6,5 @@ This repository contains the extensive analysis of DCM binding sites in ZF genom
 - the DCM is only able to methylate the strand on which the polymerase is elongating
 
 It also include an analysis of DCM motifs in Mus Musculus genome.
+
+It uses fastaRegexFinder to find the motifs in the genome, developped by https://github.com/dariober/bioinformatics-cafe 
